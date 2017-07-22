@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Final_Game()
+comment1.params=
+comment1.target=void\ init()
+comment10.params=
+comment10.target=void\ getName()
+comment10.text=public\ void\ paint(Graphics\ g)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ dbimage\ \=\ f.createImage(a,b);\r\n\ \ \ \ \ \ \ \ dbg\ \=\ dbimage.getGraphics();\r\n\ \ \ \ \ \ \ \ //dbg\ \=\ g;\r\n\ \ \ \ \ \ \ \ dp.paintComponent(dbg);\r\n\ \ \ \ \ \ \ \ //draw(dbg);\r\n\ \ \ \ \ \ \ \ g.drawImage(dbimage,0,0,f);\r\n}
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ main()
+comment4.params=
+comment4.target=void\ setPolygon()
+comment5.params=
+comment5.target=void\ setRandColor()
+comment6.params=
+comment6.target=void\ move()
+comment7.params=shapeA\ shapeB
+comment7.target=boolean\ intersectsShape(java.awt.geom.Area,\ java.awt.geom.Area)
+comment7.text=boolean\ intersectsPolygon(Polygon\ shapeA,\ Polygon\ shapeB)\r\n\ \ \ \ {\ \ \r\n\ \ \ \ \ \ \ \ //shapeA.translate(0,40);\r\n\ \ \ \ \ \ \ \ Area\ areaA\ \=\ new\ Area(shapeA);\r\n\ \ \ \ \ \ \ \ Area\ areas\ \=areaA.createTransformedArea(new\ AffineTransform(1,0,0,1,0,40));\r\n\ \ \ \ \ \ \ \ areas.intersect(new\ Area(shapeB));\r\n\ \ \ \ \ \ \ \ return\ \!areas.isEmpty();\r\n}
+comment8.params=p
+comment8.target=boolean\ collisionWithSideWalls(java.awt.geom.Area)
+comment8.text=void\ changeLabels()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ lev\ \=\ new\ JLabel("LEVEL\ \:\ "+\ le);\r\n\ \ \ \ \ \ \ \ sc\ \=\ new\ JLabel("YOUR\ SCORE\ \:\ "\ +\ s);\r\n}/
+comment9.params=p
+comment9.target=boolean\ collisionWithBottomWall(java.awt.geom.Area)
+numComments=11
