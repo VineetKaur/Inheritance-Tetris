@@ -55,7 +55,7 @@ class Final_Game implements Runnable
         ar = new Area[150];
         shapeNo = new int[150];
         setPolygon();
-        setRandColor();
+        setRandColor(
         try
         {
             brr = new BufferedReader(new FileReader(fname));
@@ -637,7 +637,7 @@ class Final_Game implements Runnable
                 g2d.setColor(new Color(10,100,50));
                 g2d.fillRect(500,0,170,650);
                 g2d.setColor(Color.white);
-                Font lf = new Font("serif",Font.BOLD + Font.ITALIC, 16);
+                Font lf = new Font("serif",Font.BOLD + Font.ITALIC, 12);
                 g2d.setFont(lf);
                 g2d.drawString("NAME : " + name,510,50);
                 g2d.drawString("LEVEL : "+le,510,100);
