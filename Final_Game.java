@@ -287,8 +287,8 @@ class Final_Game implements Runnable
         animg a = new animg();
         
         obj = new Final_Game();
-        /*obj.getName();
-        a.aniStart();*/
+        obj.getName();
+        a.aniStart();
         while(!gameover)
         {
             obj.run();
