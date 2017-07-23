@@ -33,7 +33,7 @@ public class Sound
         ContinuousAudioDataStream loop = null;
        
         try{
-            BGM =new AudioStream(new FileInputStream("Smashing-Yuri_Santana-1233262689.wav"));
+            BGM =new AudioStream(new FileInputStream("POL-chubby-cat-short.wav"));
             MD = BGM.getData();
             loop = new ContinuousAudioDataStream    (MD);
         }catch(IOException error){
