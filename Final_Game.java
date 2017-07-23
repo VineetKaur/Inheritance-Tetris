@@ -797,7 +797,7 @@ class Final_Game implements Runnable
             //f = new JFrame("Tetris");
             f.setVisible(true);
             f.repaint();
-            //obj.run();
+            obj.run();
         }
     }
     class ExitListener implements ActionListener
